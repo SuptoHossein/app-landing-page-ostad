@@ -9,7 +9,7 @@
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-6" v-for="price in prices" :key="price.key">
-          <div class="card aa-price text-center" :class="{ 'aa-price-active': isActive }">
+          <div class="card aa-price text-center" >
             <div class="card-body">
               <div class="h5 mt-0">{{ price.title }}</div>
               <div class="aa-price-section">

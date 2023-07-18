@@ -1,18 +1,18 @@
 <template>
   <div class="aa-product-details section" id="features">
     <div class="row">
-      <div class="col-lg-4 col-md-6 col-sm-12" v-for="feature in features" :key="feature.index">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="icon icon-danger">
-          <i class="{'fa fa-tags': icon}" aria-hidden="true"></i>
+          <i class="fa fa-tags" aria-hidden="true"></i>
         </div>
         <div class="description">
-          <div class="h4">{{ feature.title }}</div>
+          <div class="h4">Showcase Your App</div>
           <p class="text-muted">
             Showcase your app in style with this professional looking template.
           </p>
         </div>
       </div>
-      <!-- <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="icon icon-danger">
           <i class="fa fa-cog" aria-hidden="true"></i>
         </div>
@@ -67,17 +67,7 @@
             Use Bootstrap and PaperKit to add additional components.
           </p>
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
-
-<script setup>
-const features = [
-  {
-    icon: true,
-    title: "Showcase Your App",
-    text: "Showcase your app in style with this professional looking template. "
-  }
-]
-</script>

@@ -15,9 +15,9 @@
         </div>
         <div class="col-md-12">
           <p class="mt-3">
-            Copyright &copy; Awesome App. All rights reserved.<br />Design -
+            {{ titleOne }}<br />{{ titleTwo }}
             <a class="credit" href="https://templateflip.com" target="_blank"
-              >TemplateFlip</a
+              >{{ link }}</a
             >
           </p>
         </div>
@@ -25,3 +25,9 @@
     </div>
   </footer>
 </template>
+
+<script setup>
+const titleOne = "Copyright &copy; Awesome App. All rights reserved."
+const titleTwo = "Design -"
+const link = "TemplateFlip"
+</script>
