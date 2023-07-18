@@ -9,7 +9,7 @@
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-6" v-for="price in prices" :key="price.key">
-          <div class="card aa-price text-center" :class="aa-price-active">
+          <div class="card aa-price text-center" :class="{ 'aa-price-active': isActive }">
             <div class="card-body">
               <div class="h5 mt-0">{{ price.title }}</div>
               <div class="aa-price-section">
@@ -46,26 +46,28 @@ const prices = [
   {
     title: "Basic",
     price: "12.0",
-    
+    isActive: false,
     features:
       ["One User", "Multiple Access", "SMS Support", "24/7 Online Support"]
   },
   {
     title: "Standard",
     price: "24.0",
-    active: true,
+    isActive: true,
     features:
       ["Five User", "Multiple Access", "SMS Support", "24/7 Online Support"]
   },
   {
     title: "Premium",
     price: "250.0",
+    isActive: false,
     features:
       ["Twenty User", "Multiple Access", "SMS Support", "24/7 Online Support"]
   },
   {
     title: "Enterprise",
     price: "999.0",
+    isActive: false,
     features:
       ["One User", "Multiple Access", "SMS Support", "24/7 Online Support"]
   },
