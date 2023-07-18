@@ -28,7 +28,7 @@
 
 <script setup>
 const imageData = {
-  image: "./../../public/images/2.jpg",
+  image: "./../../images/2.jpg",
   alt: "Image"
 }  
 
