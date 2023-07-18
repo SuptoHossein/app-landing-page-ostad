@@ -40,21 +40,21 @@ const testimonials = [
     text: `Awesome App is awesome and I can't imagine working on my projects without it. It has saved me countless hours of time and has increased my productivity.`,
     name: "Patrick Harry",
     designation: "CEO, Awesome Inc.",
-    image: "./../../public/images/user1.jpg",
+    image: "./../../images/user1.jpg",
     alt: "Face 1"
   },
   {
     text: `Awesome App is awesome and I can't imagine working on my projects without it. It has saved me countless hours of time and has increased my productivity.`,
     name: "Jeanne Lawson",
     designation: "Design, Awesome Inc",
-    image: "./../../public/images/user2.jpg",
+    image: "./../../images/user2.jpg",
     alt: "Face 2"
   },
   {
     text: `Awesome App is awesome and I can't imagine working on my projects without it. It has saved me countless hours of time and has increased my productivity.`,
     name: "Robin Barnes",
     designation: "Developer, Awesome Inc",
-    image: "./../../public/images/user3.jpg",
+    image: "./../../images/user3.jpg",
     alt: "Face 3"
   },
 ]
