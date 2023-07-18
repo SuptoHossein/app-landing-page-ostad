@@ -34,7 +34,7 @@
                 <div class="carousel-item active">
                   <img
                     class="img-fluid"
-                    src="./../assets/images/3.jpg"
+                    src="./../../public/images/3.jpg"
                     alt="First slide"
                   />
                   <div class="carousel-caption d-none d-md-block"></div>
@@ -42,7 +42,7 @@
                 <div class="carousel-item">
                   <img
                     class="img-fluid"
-                    src="./../assets/images/4.jpg"
+                    src="./../../public/images/4.jpg"
                     alt="Second slide"
                   />
                   <div class="carousel-caption d-none d-md-block"></div>
@@ -50,7 +50,7 @@
                 <div class="carousel-item">
                   <img
                     class="img-fluid"
-                    src="./../assets/images/5.jpg"
+                    src="./../../public/images/5.jpg"
                     alt="Third slide"
                   />
                   <div class="carousel-caption d-none d-md-block"></div>

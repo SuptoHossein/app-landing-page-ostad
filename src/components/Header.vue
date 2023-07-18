@@ -6,7 +6,7 @@
           <img
             class="img-fluid pr-3 aa-logo-img"
             :src="siteLogo"
-            alt="logo"
+            :alt="logo"
           /><a class="navbar-brand px-0 py-0" href="#">Awesome App</a>
           <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
@@ -30,32 +30,23 @@
         <div class="row">
           <div class="col-md-6 col-sm-12">
             <h1 class="text-white mb-4">
-              Awesome App <br />App Landing Template
+               {{ titleOne }}<br />{{ titleTwo }}
             </h1>
             <p>
-              An awesome landing page template to showcase your app features,
-              screenshots, pricing, user testimonials and download links.
+              {{ text }}
             </p>
             <ul class="py-1 list-unstyled">
-              <li class="py-2">
+              <li class="py-2" v-for="list in lists" :key="list.index">
                 <i class="fa fa-check-circle pr-4" aria-hidden="true"></i>
-                Amazing Design to Present Your App
-              </li>
-              <li class="py-2">
-                <i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Fully
-                Responsive and Powered by Bootstrap &amp; PaperKit
-              </li>
-              <li class="py-2">
-                <i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Very
-                Easy to Customize and Setup
-              </li>
+                {{ list }}
+              </li>              
             </ul>
             <a class="mt-4 btn btn-outline-neutral btn-round" href="#features"
-              >Start Exploring</a
+              >{{ button }}</a
             >
           </div>
           <div class="col-md-6 col-sm-12 text-right">
-            <img class="img-fluid" src="./../assets/images/1.jpg" alt="Image" />
+            <img class="img-fluid" src="./../../public/images/1.jpg" alt="image.alt" />
           </div>
         </div>
       </div>
@@ -64,5 +55,17 @@
 </template>
 
 <script setup>
-const siteLogo = "src/assets/images/logo.png"
+const siteLogo = "./../../public/images/logo.png"
+const titleOne = "Awesome App"
+const titleTwo = "App Landing Template"
+const text = "An awesome landing page template to showcase your app features, screenshots, pricing, user testimonials and download links."
+const lists = [
+  "Amazing Design to Present Your App ", " Fully Responsive and Powered by Bootstrap & PaperKit", "Very Easy to Customize and Setup "
+]
+const button = "Start Exploring"
+const image = {
+  img: "./../src/assets/images/1.jpg",
+  alt: "Image"
+}
+
 </script>
