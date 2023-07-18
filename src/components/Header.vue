@@ -46,7 +46,7 @@
             >
           </div>
           <div class="col-md-6 col-sm-12 text-right">
-            <img class="img-fluid" src="./../../public/images/1.jpg" alt="image.alt" />
+            <img class="img-fluid" :src="image.img" :alt="image.alt" />
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
 </template>
 
 <script setup>
-const siteLogo = "./../../public/images/logo.png"
+const siteLogo = "./../../images/logo.png"
 const titleOne = "Awesome App"
 const titleTwo = "App Landing Template"
 const text = "An awesome landing page template to showcase your app features, screenshots, pricing, user testimonials and download links."
@@ -64,7 +64,7 @@ const lists = [
 ]
 const button = "Start Exploring"
 const image = {
-  img: "./../src/assets/images/1.jpg",
+  img: "./../../images/1.jpg",
   alt: "Image"
 }
 
