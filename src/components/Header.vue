@@ -5,7 +5,7 @@
         <div class="container">
           <img
             class="img-fluid pr-3 aa-logo-img"
-            src="src/assets/images/logo.png"
+            :src="siteLogo"
             alt="logo"
           /><a class="navbar-brand px-0 py-0" href="#">Awesome App</a>
           <div class="collapse navbar-collapse">
@@ -55,10 +55,14 @@
             >
           </div>
           <div class="col-md-6 col-sm-12 text-right">
-            <img class="img-fluid" src="src/assets/images/1.jpg" alt="Image" />
+            <img class="img-fluid" src="./../assets/images/1.jpg" alt="Image" />
           </div>
         </div>
       </div>
     </div>
   </header>
 </template>
+
+<script setup>
+const siteLogo = "src/assets/images/logo.png"
+</script>

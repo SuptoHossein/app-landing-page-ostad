@@ -31,14 +31,30 @@
                 ></li>
               </ol>
               <div class="carousel-inner" role="listbox">
-                <div class="carousel-item" v-for="slide in slides" :key="slide.index">
+                <div class="carousel-item active">
                   <img
                     class="img-fluid"
-                    :src="slide.image"
-                    :alt="slide.alt"
+                    src="./../assets/images/3.jpg"
+                    alt="First slide"
                   />
                   <div class="carousel-caption d-none d-md-block"></div>
-                </div>                
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="img-fluid"
+                    src="./../assets/images/4.jpg"
+                    alt="Second slide"
+                  />
+                  <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="img-fluid"
+                    src="./../assets/images/5.jpg"
+                    alt="Third slide"
+                  />
+                  <div class="carousel-caption d-none d-md-block"></div>
+                </div>
               </div>
               <a
                 class="left carousel-control carousel-control-prev bg-danger"
@@ -66,12 +82,7 @@
 <script setup>
 const screenshotData = {
   title: "Take a look at our screenshots",
-  text: `Add your app screenshots below. Make sure to make them lively by putting them inside real device mockups \n Replace this text to describe the screenshots of your app.`,
-};
-
-const slides = [
-    { image: "./src/assets/images/3.jpg", alt: "First slide"},
-    { image: "./src/assets/images/4.jpg", alt: "Second slide"},
-    { image: "./src/assets/images/5.jpg", alt: "Third slide"},
-]
+  text: `Add your app screenshots below. Make sure to make them lively by putting them inside real device mockups 
+          Replace this text to describe the screenshots of your app.`
+}
 </script>
