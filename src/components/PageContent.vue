@@ -31,6 +31,8 @@
 </template>
 
 <script setup>
+import Features from './Features.vue'
+import About from './About.vue'
 import Screenshot from "./Screenshot.vue";
 import Price from "./Price.vue";
 import Testimonial from "./Testimonial.vue";
