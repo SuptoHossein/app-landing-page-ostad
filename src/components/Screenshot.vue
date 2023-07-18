@@ -85,4 +85,19 @@ const screenshotData = {
   text: `Add your app screenshots below. Make sure to make them lively by putting them inside real device mockups 
           Replace this text to describe the screenshots of your app.`
 }
+
+// const slides = [
+//   {
+//     image: "./../src/assets/images/3.jpg",
+//     alt: "First slide"
+//   },
+//   {
+//     image: "./../src/assets/images/4.jpg",
+//     alt: "Third slide"
+//   },
+//   {
+//     image: "./../src/assets/images/5.jpg",
+//     alt: "Third slide"
+//   }
+// ]
 </script>
