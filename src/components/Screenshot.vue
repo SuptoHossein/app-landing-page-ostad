@@ -34,7 +34,7 @@
                 <div class="carousel-item active">
                   <img
                     class="img-fluid"
-                    src="./../../public/images/3.jpg"
+                    src="./../../images/3.jpg"
                     alt="First slide"
                   />
                   <div class="carousel-caption d-none d-md-block"></div>
@@ -42,7 +42,7 @@
                 <div class="carousel-item">
                   <img
                     class="img-fluid"
-                    src="./../../public/images/4.jpg"
+                    src="./../../images/4.jpg"
                     alt="Second slide"
                   />
                   <div class="carousel-caption d-none d-md-block"></div>
@@ -50,7 +50,7 @@
                 <div class="carousel-item">
                   <img
                     class="img-fluid"
-                    src="./../../public/images/5.jpg"
+                    src="./../../images/5.jpg"
                     alt="Third slide"
                   />
                   <div class="carousel-caption d-none d-md-block"></div>
@@ -85,19 +85,4 @@ const screenshotData = {
   text: `Add your app screenshots below. Make sure to make them lively by putting them inside real device mockups 
           Replace this text to describe the screenshots of your app.`
 }
-
-// const slides = [
-//   {
-//     image: "./../src/assets/images/3.jpg",
-//     alt: "First slide"
-//   },
-//   {
-//     image: "./../src/assets/images/4.jpg",
-//     alt: "Third slide"
-//   },
-//   {
-//     image: "./../src/assets/images/5.jpg",
-//     alt: "Third slide"
-//   }
-// ]
 </script>
