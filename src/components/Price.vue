@@ -28,9 +28,7 @@
               <a class="btn btn-outline-default btn-round" href="#">{{ buy }}</a>
             </div>
           </div>
-        </div>
-
-       
+        </div>       
       </div>
     </div>
   </div>
