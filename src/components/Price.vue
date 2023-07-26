@@ -12,7 +12,7 @@
           <div class="card aa-price text-center">
             <div class="card-body">
               <div class="h5 mt-0">{{ price.title }}</div>
-              <div class="aa-price-section">
+              <div class="aa-price-section" :class="price.isActive ? 'bg-gradient text-white' : ''">
                 <sup>$</sup><span>{{ price.price }}</span><small>/m</small>
               </div>
               <ul class="list-unstyled text-muted">
@@ -25,7 +25,7 @@
               <p>
                 <a href="#" class="text-muted text-small">{{ link }}</a>
               </p>
-              <a class="btn btn-outline-default btn-round" href="#">{{ buy }}</a>
+              <a class="btn btn-round" :class="price.isActive ? 'bg-gradient' : 'btn-outline-default border'" href="#">{{ buy }}</a>
             </div>
           </div>
         </div>       
